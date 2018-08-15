@@ -25,11 +25,12 @@ class FactoryMethodTest extends TestCase
         $this->assertInstanceOf(FileLogger::class, $file_logger);
     }
 
-    public function testFileLogging()
+    public function testFileLoggingReturnValue()
     {
         $file_path = __DIR__ . '/filelogger.txt';
         $factory = new FileLoggerFactory($file_path);
         $file_loger = $factory->createLogger();
-        $file_loger->log('大家好');
+        $return = $file_loger->log('大家好');
+        $this->assertNotEquals(false, $return);
     }
 }

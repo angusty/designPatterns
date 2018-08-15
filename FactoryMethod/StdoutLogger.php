@@ -6,6 +6,6 @@ class StdoutLogger implements Logger
     public function log(string $message)
     {
         // TODO: Implement log() method.
-        echo $message, PHP_EOL;
+        return $message . PHP_EOL;
     }
 }

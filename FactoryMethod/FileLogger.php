@@ -12,6 +12,6 @@ class FileLogger implements Logger
     public function log(string $message)
     {
         // TODO: Implement log() method.
-        file_put_contents($this->filePath, $message . PHP_EOL, FILE_APPEND);
+        return file_put_contents($this->filePath, $message . PHP_EOL, FILE_APPEND);
     }
 }
