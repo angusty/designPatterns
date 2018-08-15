@@ -4,4 +4,4 @@
  ## 设计模式如下：
    1. [抽象工厂](/Abstractfactory)
    2.  [生成器模式](/Builder)
-   3.  [工厂方法](/FactorMethod)
+   3.  [工厂方法](/FactoryMethod)
