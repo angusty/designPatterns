@@ -5,4 +5,4 @@
    1. [抽象工厂](/Abstractfactory)
    2. [生成器模式](/Builder)
    3. [工厂方法](/FactoryMethod)
-   4. [多例](/Multition)
+   4. [多例](/Multiton)
