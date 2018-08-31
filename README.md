@@ -6,3 +6,4 @@
    2. [生成器模式](/Builder)
    3. [工厂方法](/FactoryMethod)
    4. [多例](/Multiton)
+   5. [单例]
