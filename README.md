@@ -1,4 +1,5 @@
 # designPatterns
+
 ## 复习一下设计模式
     代码使用compmoser管理依赖，并遵循 psr-4 加载规范，所有测试用例均在Tests目录下。
  ## 设计模式如下：
@@ -7,3 +8,4 @@
    3. [工厂方法](/FactoryMethod)
    4. [多例](/Multiton)
    5. [单例](/Singleton)
+   6. [对象池](/Pool)
