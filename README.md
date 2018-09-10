@@ -9,3 +9,4 @@
    4. [多例](/Multiton)
    5. [单例](/Singleton)
    6. [对象池](/Pool)
+   7. [原型模式](/Prototype)
