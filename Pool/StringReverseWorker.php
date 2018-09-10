@@ -2,6 +2,7 @@
 namespace DesignPatterns\Pool;
 
 use DateTime;
+
 class StringReverseWorker
 {
     private $createdAt;
