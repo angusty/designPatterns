@@ -14,3 +14,4 @@
    8. [简单工厂](/SimpleFactory)
    9. [静态工厂](/StaticFactory)
    10. [适配器模式](/Adapter)
+   11. [桥接模式](/Bridge)
