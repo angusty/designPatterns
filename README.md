@@ -16,3 +16,4 @@
    10. [适配器模式](/Adapter)
    11. [桥接模式](/Bridge)
    12. [组合模式](/Composite)
+   13. [数据映射器](/DataMapper)
