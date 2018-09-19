@@ -17,3 +17,4 @@
    11. [桥接模式](/Bridge)
    12. [组合模式](/Composite)
    13. [数据映射器](/DataMapper)
+   14. [装饰器](/Decorator)
