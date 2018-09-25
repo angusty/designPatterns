@@ -1,7 +1,7 @@
 <?php
 namespace DesignPatterns\Decorator;
 
-class WIFI extends BookingDecorator
+class gWIFI extends BookingDecorator
 {
     const PRICE = 5;
 

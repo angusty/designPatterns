@@ -18,3 +18,4 @@
    12. [组合模式](/Composite)
    13. [数据映射器](/DataMapper)
    14. [装饰器](/Decorator)
+   15. [依赖注入](/DependencyInjection)
