@@ -10,14 +10,18 @@ class FacadeTest extends TestCase
     {
         $os = $this->createMock('DesignPatterns\Facade\OsInterface');
         $os->method('getName')
-            ->with($this->returnValue('Linux'));
+            ->will($this->returnValue('Linux'));
+//            ->willReturn('Linux');
+
         $bios = $this->getMockBuilder('DesignPatterns\Facade\BiosInterface')
             ->setMethods(['launch', 'execute', 'waitForKeyPress'])
             ->disableAutoload()
             ->getMock();
+
         $bios->expects($this->once())
             ->method('launch')
             ->with($os);
+
         $facade = new Facade($bios, $os);
         $facade->turnOn();
         $this->assertSame('Linux', $os->getName());
